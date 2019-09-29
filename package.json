@@ -1,0 +1,29 @@
+{
+  "name": "uscis",
+  "version": "0.0.4",
+  "description": "Query your USCIS case status",
+  "bin": "./bin/uscis",
+  "main": "./lib/uscis",
+  "scripts": {
+    "start": "./bin/uscis"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.5.0",
+    "jsdom": "^11.10.0",
+    "lodash": "^4.17.10",
+    "request": "^2.85.0"
+  },
+  "keywords": [
+    "USCIS",
+    "H1B",
+    "OPT",
+    "status",
+    "query",
+    "case"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuqcool/uscis.git"
+  },
+  "license": "MIT"
+}
