@@ -1,0 +1,13 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<% for(var i = 0; i < questions.length; i++) { %>
+<hr>
+<h1><%= questions[i].title %></h1>
+<p><%= questions[i].metadata %></p>
+<div style="white-space: pre-line"><%= questions[i].body %></div>
+<% } %>
+
+</body>
+</html>
